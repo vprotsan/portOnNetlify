@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { Nav, NavItem, Navbar, MenuItem, NavDropdown } from 'react-bootstrap';
 import '../css/Menu.css'
@@ -16,18 +16,18 @@ const Menu = () => {
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav>
-            <NavItem eventKey={1} to="/">
-              home
-            </NavItem>
-            <NavItem eventKey={2} to="/portfolio">
-              portfolio
-            </NavItem>
-            <NavItem eventKey={1} to="/about">
-              about
-            </NavItem>
-            <NavItem eventKey={2} to="/contact">
-              contact
-            </NavItem>
+            <li eventKey={1} >
+                <Link to="/">home</Link>
+            </li>
+            <li eventKey={2}>
+              <Link to="/portfolio">portfolio</Link>
+          </li>
+            <li eventKey={1} >
+                <Link to="/about">about</Link>
+            </li>
+            <li eventKey={2}>
+                <Link to="/contact">contact</Link>
+            </li>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
