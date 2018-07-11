@@ -6,8 +6,7 @@ body,
   min-height: 100%;
 
   & > .container-fluid {
-    background: #ffffff url('../images/bg-1800.jpg') no-repeat;
-    background-size: contain;
+    background: #ffffff;
     position: absolute;
     width: 100%;
     padding-right: 17rem;
@@ -17,6 +16,11 @@ body,
     bottom: 0;
     left: 0;
     overflow: auto;
+
+    @media screen and (min-width: 992px){
+      background: #ffffff url('../images/bg-1800.jpg') no-repeat;
+      background-size: cover;
+    }
 
     & > section {
       padding: 0 30px;

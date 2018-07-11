@@ -1,12 +1,12 @@
 body {
   font-family: 'Quicksand', sans-serif;
-  padding-top: 54px;
   color: #868e96; }
 
 @media (min-width: 992px) {
   body {
     padding-top: 0;
-    padding-right: 17rem; } }
+    padding-right: 17rem; }
+}
 
 h1,
 h2,
