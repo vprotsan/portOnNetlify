@@ -10,7 +10,7 @@ const Menu = () => {
       <Navbar inverse collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
-            <a href="/">V.Protsan</a>
+            <a href="/">V.Hasty</a>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
@@ -21,7 +21,7 @@ const Menu = () => {
             </li>
             <li eventKey={2}>
               <Link to="/portfolio">portfolio</Link>
-          </li>
+            </li>
             <li eventKey={1} >
                 <Link to="/about">about</Link>
             </li>

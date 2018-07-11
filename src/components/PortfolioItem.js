@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link, match } from 'react-router-dom';
 import Modal from 'react-modal';
+import sizeMe from 'react-sizeme';
 import StackGrid from "react-stack-grid";
 import PropTypes from 'prop-types';
 
@@ -26,8 +27,8 @@ Modal.setAppElement('#page');
 
 class PortfolioItem extends Component {
 
-  constructor(props){
-      super(props);
+  constructor(){
+      super();
       this.state = {
         contentLoaded: false,
         modalIsOpen: false,
@@ -104,21 +105,25 @@ class PortfolioItem extends Component {
           hasLinks = <h3 className="my-3">Project Details</h3>;
     }
 
+    const { width } = this.props.size;
+    console.log(width)
+
     return(
         <StackGrid
-                    columnWidth={"25%"}
-                    className="grid-main-container"
-                    gutterWidth={15}
-                    gutterHeight={15}
-                    monitorImagesLoaded={true}
-                    >
+              className="grid-main-container"
+              gutterWidth={15}
+              gutterHeight={15}
+              monitorImagesLoaded={true}
+              columnWidth={width <= 768 ? '50%' : '25%'}
+              >
+
               {portfolioItems}
+
               <Modal
                     isOpen={this.state.modalIsOpen}
                     onAfterOpen={this.afterOpenModal}
                     onRequestClose={this.closeModal}
                     style={customStyles}
-                    contentLabel="Example Modal"
                     >
                     <div className="modal-body">
                       <div className="row">
@@ -149,4 +154,4 @@ PortfolioItem.propTypes = {
      portfolioItems: PropTypes.array.isRequired,
 }
 
-export default PortfolioItem;
+export default sizeMe()(PortfolioItem);

@@ -15,7 +15,6 @@ import Contact from './components/Contact';
 import About from './components/About';
 import Login from './components/Login';
 import NotFound from './components/NotFound';
-import PrivateRoute from './components/PrivateRoute';
 
 import './css/resume.css';
 import './css/style.css';
