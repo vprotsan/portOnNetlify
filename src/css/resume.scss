@@ -60,8 +60,6 @@ h2 {
 }
 
 section.resume-section {
-  border-bottom: 1px solid #dee2e6;
-  // margin-top: 25vh;
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
   display: flex;
@@ -69,7 +67,11 @@ section.resume-section {
   align-items: center;
 
   & > div.inner-wrapper {
-    margin-left: auto;
+    margin: 0;
+
+    @media (min-width: 992px) {
+      margin-left: auto;
+    }
   }
 }
 

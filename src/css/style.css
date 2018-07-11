@@ -10,8 +10,8 @@ body,
     background: #ffffff;
     position: absolute;
     width: 100%;
-    padding-right: 17rem;
-    height: 100%;
+    padding: 0;
+    margin: 0;
     top: 0;
     right: 0;
     bottom: 0;
@@ -22,7 +22,8 @@ body,
       body > .container-fluid,
       .App > .container-fluid {
         background: #ffffff url("../images/bg-1800.jpg") no-repeat;
-        background-size: cover; } }
+        background-size: cover;
+        padding-right: 17rem; } }
     html > .container-fluid > section,
     body > .container-fluid > section,
     .App > .container-fluid > section {

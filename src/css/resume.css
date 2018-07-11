@@ -5,8 +5,7 @@ body {
 @media (min-width: 992px) {
   body {
     padding-top: 0;
-    padding-right: 17rem; }
-}
+    padding-right: 17rem; } }
 
 h1,
 h2,
@@ -48,14 +47,16 @@ h2 {
   color: #BD5D38; }
 
 section.resume-section {
-  border-bottom: 1px solid #dee2e6;
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
   display: flex;
   justify-content: right;
   align-items: center; }
   section.resume-section > div.inner-wrapper {
-    margin-left: auto; }
+    margin: 0; }
+    @media (min-width: 992px) {
+      section.resume-section > div.inner-wrapper {
+        margin-left: auto; } }
 
 section.resume-section .resume-item .resume-date {
   min-width: none; }

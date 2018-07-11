@@ -1,11 +1,34 @@
 .navbar {
     top: -20px;
+    z-index: 98889878263;
+}
+
+.navbar-inverse {
+    background: #1e7c96;
+    border: 0;
+
+    .navbar-header a {
+        color: #ffffff;
+    }
+
+    .navbar-toggle {
+        border-color: #fff;
+    }
+
+    .navbar-nav>li>a {
+        color: #ffffff;
+    }
+}
+
+.navbar-inverse .navbar-collapse {
+    border-color: #166177;
 }
 
 @media screen and (min-width: 992px){
     .navbar {
       position: absolute;
       right: 0;
+      top: 0;
       width: 17rem;
       height: 100vh;
       border-radius: 0;

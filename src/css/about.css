@@ -1,2 +1,6 @@
 #about h1, #about p {
   text-align: right; }
+
+#about p span {
+  display: block;
+  margin: 10px 0; }
