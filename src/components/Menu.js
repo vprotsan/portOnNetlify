@@ -16,16 +16,16 @@ const Menu = () => {
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav>
-            <NavItem eventKey={1} href="/">
+            <NavItem eventKey={1} to="/">
               home
             </NavItem>
-            <NavItem eventKey={2} href="/portfolio">
+            <NavItem eventKey={2} to="/portfolio">
               portfolio
             </NavItem>
-            <NavItem eventKey={1} href="/about">
+            <NavItem eventKey={1} to="/about">
               about
             </NavItem>
-            <NavItem eventKey={2} href="/contact">
+            <NavItem eventKey={2} to="/contact">
               contact
             </NavItem>
           </Nav>
