@@ -1,0 +1,49 @@
+@media screen and (min-width: 640px){
+    .navbar {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 17rem;
+      height: 100vh;
+      border-radius: 0;
+      border: 0;
+      margin-bottom: 0;
+
+      .navbar-header {
+          a {
+             color: #ffffff;
+          }
+      }
+
+      .container {
+          top: 50%;
+          position: relative;
+          transform: translateY(-66%);
+          align-items: center;
+          width: inherit;
+      }
+
+      &.navbar-inverse {
+          background: #1e7c96;
+      }
+    }
+
+    .container,
+    .nav.navbar-nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        li {
+            a {
+                font-size: 1.6rem;
+                color: #ffffff;
+
+                &:hover {
+                    cursor: pointer;
+                    color: darken(#ffffff, 5%);
+                }
+            }
+        }
+    }
+}

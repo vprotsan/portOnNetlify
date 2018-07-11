@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "description": "Javascript"
+  },
+  {
+    "id": "2",
+    "description": "Wordpress projects"
+  },
+  {
+    "id": "3",
+    "description": "Graphic design"
+  },
+  {
+    "id": "4",
+    "description": "Back-end developement"
+  },
+  {
+    "id": "5",
+    "description": "Mix(Landing pages, design, HTML, CSS)"
+  }
+]

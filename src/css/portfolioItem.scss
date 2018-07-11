@@ -1,0 +1,123 @@
+
+.col-md-12 {
+  .thumb {
+    display: block;
+    margin: 0 auto;
+    width: auto;
+  }
+}
+
+.col-md-8 {
+  .thumb {
+    width: 100%;
+  }
+}
+
+.close-modal {
+  right: -18px;
+  position: absolute;
+  top: -18px;
+  background: none;
+  border: 0;
+  font-size: 21px;
+  transition: all 0.2s linear;
+
+  &:hover {
+    color: #3a98b7;
+  }
+}
+
+#experience {
+  margin: 0;
+
+  h2 {
+    text-align: right;
+  }
+
+  .p-items {
+    margin-top: 2rem;
+  }
+
+  .btn-group-vertical>.btn,
+  .btn-group>.btn {
+    float: right;
+    margin-top: 1rem;
+  }
+
+  .portfolio-item {
+
+    .card-wrapper {
+       position: relative;
+       background: #ffffff;
+       box-shadow: 0px 1px 3px #ececec;
+
+       &:hover {
+         cursor: pointer;
+
+         .fakeoverlay {
+           opacity: 1;
+         }
+       }
+
+       .fakeoverlay {
+         position: absolute;
+         top:0;
+         right: 0;
+         left: 0;
+         bottom: 0;
+         background: #7dcae152;
+         width: 100%;
+         height: 100%;
+         z-index:999;
+         opacity: 0;
+         transition: all 0.2s linear;
+       }
+
+       .card-box {
+         padding: 15px;
+         max-height: 300px;
+
+         h4 {
+           line-height: 1.4;
+         }
+
+         $font-size: 16px;
+         $line-height: 1.2;
+         $lines-to-show: 3;
+
+         p.descr {
+            overflow: hidden;
+            position: relative;
+            line-height: 1.4em;
+            max-height: 3.8em;
+            text-align: left;
+            margin-right: -1em;
+            padding-right: 2em;
+         }
+       }
+    }
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .btn-warning {
+    background: #3a98b7;
+    border: 0;
+    border-radius: 0;
+  }
+}
+
+.ReactModal__Overlay {
+  z-index: 9328748736;
+  background-color: rgba(25, 25, 25, 0.75)!important;
+}
+
+.Select.is-clearable.is-searchable {
+  z-index: 99893764573;
+}
+
+.grid-main-container {
+  top: 23px;
+}

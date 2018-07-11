@@ -1,0 +1,381 @@
+[
+  {
+    "id": "1",
+    "title": "Gilroy garlic festival",
+    "category_id": "2",
+    "description": "Wordpress website: set up a new theme, installed plugins, added content, adjusted css",
+    "thumbnail": {
+      "1x": "/api/images/1.jpg"
+    },
+    "urls":{
+        "github": "",
+        "live": "https://gilroygarlicfestival.com/",
+        "live2": ""
+    }
+  },
+  {
+    "id": "2",
+    "title": "Rise to learn",
+    "category_id": "2",
+    "description": "Worked on improving exisitng Wordpress theme to increase traffic",
+    "thumbnail": {
+      "1x": "/api/images/2.jpg"
+    },
+    "urls":{
+        "github": "",
+        "live": "https://rise2learn.com/",
+        "live2": ""
+    }
+  },
+  {
+    "id": "3",
+    "title": "Backstage income",
+    "category_id": "2",
+    "description": "Implemented new theme building some elements from scratch and optimized it with SEO in mind, changed navigation structure for better user experience, installed and managed plugins",
+    "thumbnail": {
+      "1x": "/api/images/3.jpg"
+    },
+    "urls":{
+        "github": "",
+        "live": "https://backstageincome.com/",
+        "live2": ""
+    }
+  },
+  {
+    "id": "4",
+    "title": "RSVP ReactJS app",
+    "category_id": "1",
+    "description": "RSVP app made with ReactJS",
+    "thumbnail": {
+      "1x": "/api/images/4.jpg"
+    },
+    "urls":{
+        "github": "https://github.com/vprotsan/rsvp",
+        "live": "https://aqueous-beyond-38254.herokuapp.com/",
+        "live2": ""
+    }
+  },
+  {
+    "id": "5",
+    "title": "ReactJS App",
+    "category_id": "1",
+    "description": "Created to practice Router in ReactJS",
+    "thumbnail": {
+      "1x": "/api/images/5.jpg"
+    },
+    "urls": {
+        "gihub": "https://github.com/vprotsan/routes",
+        "live": "https://whispering-bayou-26347.herokuapp.com/",
+        "lie2": ""
+
+    }
+  },
+  {
+    "id": "6",
+    "title": "Scoreboard",
+    "category}_id": "1",
+    "description": "ReactJS app features timer, easy way to keep score, adding/removing players",
+    "thumbnail": {
+      "1x": "/api/images/6.jpg"
+    },
+    "urls": {
+        "github": "",
+        "live": "https://enigmatic-badlands-54347.herokuapp.com/",
+        "live2": ""
+    }
+  },
+  {
+    "id": "7",
+    "title": "GIFs search ReactJS app",
+    "category_id": "1",
+    "description": "Using API to fetch gifs",
+    "thumbnail": {
+      "1x": "/api/images/7.jpg"
+    },
+    "urls":{
+        "github": "https://github.com/vprotsan/giftsearch",
+        "live": "https://rocky-temple-60874.herokuapp.com/",
+        "live2": ""
+    }
+  },
+  {
+    "id": "8",
+    "title": "CareCloud ICD-10 search app",
+    "category_id": "1",
+    "description": "Converted xml spreadsheet into JSON, Parsed JSON and created a database, Used ReactJS as a front end, Created API endpoint in Ruby on Rails, Used Amazon Cognito for Log In/Sign Up, Used ElasticSearch as a search engine, Used Redux in React to help manage state",
+    "thumbnail": {
+      "1x": "/api/images/8.jpg"
+    },
+    "urls":{
+        "github": "https://github.com/vprotsan/cloud-react",
+        "live": "https://carecloudreact.herokuapp.com/icd10",
+        "live2": ""
+    }
+  },
+  {
+    "id": "9",
+    "title": "Weather app",
+    "category_id": "1",
+    "description": "ReactJS practice app",
+    "thumbnail": {
+      "1x": "/api/images/9.jpg"
+    },
+    "urls":{
+        "github": "https://github.com/vprotsan/weatherApp",
+        "live": "https://pure-crag-25780.herokuapp.com/weather/savannah",
+        "live2": ""
+    }
+  },
+  {
+    "id": "10",
+    "title": "Snake game",
+    "category_id": "1",
+    "description": "Flashback! Good old simple snake game",
+    "thumbnail": {
+      "1x": "/api/images/10.jpg"
+    },
+    "urls":{
+        "github": "https://github.com/vprotsan/snake-game",
+        "live": "projects/snakeGame/snake.html",
+        "live2": ""
+    }
+  },
+  {
+    "id": "11",
+    "title": "Url Shortener",
+    "category_id": "4",
+    "description": "Url Shortener: Has client side url validation, Has server side url validation for entries. Build with Ruby on Rails",
+    "thumbnail": {
+      "1x": "/api/images/11.jpg"
+    },
+    "urls":{
+        "github": "https://github.com/vprotsan/urlShortener",
+        "live": "https://guarded-basin-49474.herokuapp.com/",
+        "live2": ""
+    }
+  },
+  {
+    "id": "12",
+    "title": "Section of a website",
+    "category_id": "5",
+    "description": "Design and implementation of a new section.",
+    "thumbnail": {
+      "1x": "/api/images/12.jpg"
+    },
+    "urls":{
+        "github": "",
+        "live": "projects/section/index.html",
+        "live2": ""
+    }
+  },
+  {
+    "id": "13",
+    "title": "PNC Landing page",
+    "category_id": "5",
+    "description": "Mobile first design, Design was provided -PSD to HTML, Optimisation of files-minified html,js and css",
+    "thumbnail": {
+      "1x": "/api/images/13.jpg"
+    },
+    "urls":{
+        "github": "https://github.com/vprotsan/pncbank",
+        "live": "projects/pnc/index.html",
+        "live2": "projects/pnc/index2.html"
+    }
+  },
+  {
+    "id": "14",
+    "title": "Toothgrinder Landing page",
+    "category_id": "5",
+    "description": "Design and implementation(HTML5, CSS3, Sass)",
+    "thumbnail": {
+      "1x": "/api/images/14.jpg"
+    },
+    "urls":{
+        "github": "",
+        "live": "projects/merch/index.html",
+        "live2": "projects/merch/index2.html"
+    }
+  },
+  {
+    "id": "16",
+    "title": "Giftcard",
+    "category_id": "5",
+    "description": "Design and implementation(HTML5, CSS3, Sass)",
+    "thumbnail": {
+      "1x": "/api/images/16.jpg"
+    },
+    "urls":{
+        "github": "",
+        "live": "projects/giftcard/index.html",
+        "live2": ""
+    }
+  },
+  {
+    "id": "17",
+    "title": "Dave Matthews Landing page",
+    "category_id": "5",
+    "description": "Design and implementation(HTML5, CSS3, Sass)",
+    "thumbnail": {
+      "1x": "/api/images/17.jpg"
+    },
+    "urls":{
+        "github": "",
+        "live": "projects/davematthews/index.html",
+        "live2": ""
+    }
+  },
+  {
+    "id": "18",
+    "title": "Compass Landing page",
+    "category_id": "5",
+    "description": "Design and implementation(HTML5, CSS3, Sass)",
+    "thumbnail": {
+      "1x": "/api/images/18.jpg"
+    },
+    "urls":{
+        "github": "",
+        "live": "projects/compass/index.html",
+        "live2": ""
+    }
+  },
+  {
+    "id": "19",
+    "title": "Landing page for healthcare shopping",
+    "category_id": "5",
+    "description": "Mobile first design. Coding of a photoshop document into HTML. Optimisation of files",
+    "thumbnail": {
+      "1x": "/api/images/19.jpg"
+    },
+    "urls":{
+        "github": "",
+        "live": "projects/merch/index.html",
+        "live2": "projects/merch/index2.html"
+    }
+  },
+  {
+    "id": "20",
+    "title": "AMEX Landing page",
+    "category_id": "5",
+    "description": "Design and implementation(HTML5, CSS3, Sass)",
+    "thumbnail": {
+      "1x": "/api/images/20.jpg"
+    },
+    "urls":{
+        "github": "",
+        "live": "projects/amex/index.html",
+        "live2": ""
+    }
+  },
+  {
+    "id": "21",
+    "title": "Print your own book. Custom book prints website",
+    "category_id": "5",
+    "description": "Bright and simple design. Designed and coded into HTML3 and CSS3. Has optimised files(images, css, html, js) for faster perfomance. Mobile-first design. Uses CSS3 amination to enhance expirience. Supports older browsers",
+    "thumbnail": {
+      "1x": "/api/images/21.jpg"
+    },
+    "urls":{
+        "github": "",
+        "live": "",
+        "live2": ""
+    }
+  },
+  {
+    "id": "22",
+    "title": "Prestige luxury rentals",
+    "category_id": "2",
+    "description": "Installation of a new wordpress theme and filling and managing its content. Design of a login form, reservations page and custom menu for users and admins for the template above. Customization of some small elements like buttons and editing of styles in Wordprerss template. Optimisation of a new website for faster perfomance using GTMatrix and similar tools as a guideline. Banner design for their current website. Prepearing and editing existing printing materials like booklets, trifold handouts and vip cards for print. Design of an inspection sheet",
+    "thumbnail": {
+      "1x": "/api/images/22.jpg"
+    },
+    "urls":{
+        "github": "",
+        "live": "https://www.prestigeluxuryrentals.com/",
+        "live2": ""
+    }
+  },
+  {
+    "id": "23",
+    "title": "Farm insurance website design",
+    "category_id": "3",
+    "description": "Clean, simple, yet bright website to help farmers to choose the right insurance",
+    "thumbnail": {
+      "1x": "/api/images/23.jpg"
+    },
+    "urls":{
+        "github": "",
+        "live": "fullimages/insurance-for-farmers-main.jpg",
+        "live2": ""
+    }
+  },
+  {
+    "id": "24",
+    "title": "On hold help",
+    "category_id": "3",
+    "description": "Interface that significantly improves and speeds up your phone calls while you are on hold. Easy to navigate, clean intrerface",
+    "thumbnail": {
+      "1x": "/api/images/24.jpg"
+    },
+    "urls":{
+        "github": "",
+        "live": "fullimages/viadialog-applike.jpg",
+        "live2": ""
+    }
+  },
+  {
+    "id": "25",
+    "title": "Page design",
+    "category_id": "3",
+    "description": "Design of an internal page where different hotel conference spaces are compared. The main goal was to represent the table data in a clear, understandable way",
+    "thumbnail": {
+      "1x": "/api/images/27.jpg"
+    },
+    "urls":{
+        "github": "",
+        "live": "fullimages/micereviews-inside-page.jpg",
+        "live2": ""
+    }
+  },
+  {
+    "id": "26",
+    "title": "New Beginning(Design and markup)",
+    "category_id": "5",
+    "description": "Designed in Photoshop and translated into HTML3 and CSS3. Mobile-first approach: mobile menu that transforms in a full menu as screen gets bigger. Has optimised files(images, css, html, js) for faster perfomance. HTML5 form elements are used with fallbacks for older browsers. Features carousel made with jQuery, which appears on big screen and replaced by single image on mobile devices. Has support for older browsers",
+    "thumbnail": {
+      "1x": "/api/images/26.jpg"
+    },
+    "urls":{
+        "github": "",
+        "live": "",
+        "live2": ""
+    }
+  },
+  {
+    "id": "27",
+    "title": "Toothgrinder Landing page",
+    "category_id": "5",
+    "description": "Design and implementation(HTML5, CSS3, Sass)",
+    "thumbnail": {
+      "1x": "/api/images/25.jpg"
+    },
+    "urls":{
+        "github": "",
+        "live": "fullimages/triphop-mainpage.jpg",
+        "live2": ""
+    }
+  },
+  {
+    "id": "28",
+    "title": "Radical",
+    "category_id": "2",
+    "description": "Created and maintained Wordpress theme with SEO in mind. Worked closely with product owner and UX team to design and implement best customer experiences in Woo- Commerce. Optimized website for maximum speed and scalability. Created and edited graphic assets in various editors. Integrated front-end interactions using JavaScript Frameworks",
+    "thumbnail": {
+      "1x": "/api/images/28.jpg"
+    },
+    "urls":{
+        "github": "",
+        "live": "https://getrad.co/",
+        "live2": ""
+    }
+  }
+]

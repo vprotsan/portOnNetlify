@@ -1,0 +1,57 @@
+html,
+body,
+.App {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+
+  & > .container-fluid {
+    background: #ffffff url('../images/bg-1800.jpg') no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 100%;
+    padding-right: 17rem;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+
+    & > section {
+      padding: 0 30px;
+      overflow-y: scroll;
+
+      p {
+        margin: 15px 0;
+      }
+    }
+  }
+
+  header {
+    text-align: right;
+
+    h1 {
+      margin-bottom: 0;
+    }
+
+    .tagline {
+      font-size: 12px;
+      margin-bottom: 30px;
+      letter-spacing: 2px;
+    }
+  }
+
+  .footnote {
+    width: 55px;
+    height: auto;
+    float:right;
+    margin-top: 100px;
+    margin-right: 30px;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

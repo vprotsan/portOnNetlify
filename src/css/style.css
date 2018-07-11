@@ -1,0 +1,56 @@
+html,
+body,
+.App {
+  width: 100%;
+  height: 100%;
+  min-height: 100%; }
+  html > .container-fluid,
+  body > .container-fluid,
+  .App > .container-fluid {
+    background: #ffffff url("../images/bg-1800.jpg") no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 100%;
+    padding-right: 17rem;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: auto; }
+    html > .container-fluid > section,
+    body > .container-fluid > section,
+    .App > .container-fluid > section {
+      padding: 0 30px;
+      overflow-y: scroll; }
+      html > .container-fluid > section p,
+      body > .container-fluid > section p,
+      .App > .container-fluid > section p {
+        margin: 15px 0; }
+  html header,
+  body header,
+  .App header {
+    text-align: right; }
+    html header h1,
+    body header h1,
+    .App header h1 {
+      margin-bottom: 0; }
+    html header .tagline,
+    body header .tagline,
+    .App header .tagline {
+      font-size: 12px;
+      margin-bottom: 30px;
+      letter-spacing: 2px; }
+  html .footnote,
+  body .footnote,
+  .App .footnote {
+    width: 55px;
+    height: auto;
+    float: right;
+    margin-top: 100px;
+    margin-right: 30px; }
+    html .footnote img,
+    body .footnote img,
+    .App .footnote img {
+      width: 100%;
+      height: auto; }

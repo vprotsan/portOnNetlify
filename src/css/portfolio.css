@@ -1,0 +1,22 @@
+.nav.nav-pills > li > a {
+  background: #ffffff; }
+  .nav.nav-pills > li > a:hover, .nav.nav-pills > li > a:active {
+    background: #b3edff; }
+  .nav.nav-pills > li > a p {
+    margin: 0;
+    padding: 0; }
+
+#experience .inner-wrapper {
+  margin: 0;
+  width: 100%; }
+
+.nav.nav-pills .btn-default {
+  background: #ffffff;
+  border-radius: 0;
+  border-color: #56afd4;
+  border: 1px solid #56afd4;
+  margin-right: 10px; }
+  .nav.nav-pills .btn-default.active {
+    color: #ffffff;
+    background: #48c0e2;
+    border: 1px solid #48c0e2; }
