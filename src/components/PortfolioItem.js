@@ -14,18 +14,18 @@ import '../css/modal.css'
 // const { width } = this.props.size;
 // const currWidth = width <= 768 ? '100%' : '50%'
 //
-// const customStyles = {
-//   content : {
-//     top                   : '50%',
-//     left                  : '50%',
-//     right                 : 'auto',
-//     bottom                : 'auto',
-//     marginRight           : '-50%',
-//     transform             : 'translate(-50%, -50%)',
-//     width                 : { currWidth },
-//     maxHeight             : '100%'
-//   }
-// };
+const customStyles = {
+  content : {
+    top                   : '50%',
+    left                  : '50%',
+    right                 : 'auto',
+    bottom                : 'auto',
+    marginRight           : '-50%',
+    transform             : 'translate(-50%, -50%)',
+    // width                 : '50%',
+    maxHeight             : '100%'
+  }
+};
 // Make sure to bind modal to your appElement (http://reactcommunity.org/react-modal/accessibility/)
 Modal.setAppElement('#page');
 //end modal
@@ -111,7 +111,7 @@ class PortfolioItem extends Component {
     }
 
     const { width } = this.props.size;
-    
+
     return(
         <StackGrid
               className="grid-main-container"
@@ -127,8 +127,7 @@ class PortfolioItem extends Component {
                     isOpen={this.state.modalIsOpen}
                     onAfterOpen={this.afterOpenModal}
                     onRequestClose={this.closeModal}
-                    // style={customStyles}
-                    className="myModal"
+                    style={customStyles}
                     >
                     <div className="modal-body">
                       <div className="row">
