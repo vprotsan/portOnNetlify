@@ -11,7 +11,8 @@
         "github": "",
         "live": "https://gilroygarlicfestival.com/",
         "live2": ""
-    }
+    },
+    "featured": "false"
   },
   {
     "id": "2",
@@ -25,7 +26,8 @@
         "github": "",
         "live": "https://rise2learn.com/",
         "live2": ""
-    }
+    },
+    "featured": "false"
   },
   {
     "id": "3",
@@ -39,7 +41,8 @@
         "github": "",
         "live": "https://backstageincome.com/",
         "live2": ""
-    }
+    },
+    "featured": "true"
   },
   {
     "id": "4",
@@ -53,7 +56,8 @@
         "github": "https://github.com/vprotsan/rsvp",
         "live": "https://aqueous-beyond-38254.herokuapp.com/",
         "live2": ""
-    }
+    },
+    "featured": "false"
   },
   {
     "id": "5",
@@ -82,7 +86,8 @@
         "github": "",
         "live": "https://enigmatic-badlands-54347.herokuapp.com/",
         "live2": ""
-    }
+    },
+    "featured": "false"
   },
   {
     "id": "7",
@@ -96,7 +101,8 @@
         "github": "https://github.com/vprotsan/giftsearch",
         "live": "https://rocky-temple-60874.herokuapp.com/",
         "live2": ""
-    }
+    },
+    "featured": "false"
   },
   {
     "id": "8",
@@ -110,7 +116,8 @@
         "github": "https://github.com/vprotsan/cloud-react",
         "live": "https://carecloudreact.herokuapp.com/icd10",
         "live2": ""
-    }
+    },
+    "featured": "true"
   },
   {
     "id": "9",
@@ -124,7 +131,8 @@
         "github": "https://github.com/vprotsan/weatherApp",
         "live": "https://pure-crag-25780.herokuapp.com/weather/savannah",
         "live2": ""
-    }
+    },
+    "featured": "false"
   },
   {
     "id": "10",
@@ -138,7 +146,8 @@
         "github": "https://github.com/vprotsan/snake-game",
         "live": "projects/snakeGame/snake.html",
         "live2": ""
-    }
+    },
+    "featured": "false"
   },
   {
     "id": "11",
@@ -152,7 +161,8 @@
         "github": "https://github.com/vprotsan/urlShortener",
         "live": "https://guarded-basin-49474.herokuapp.com/",
         "live2": ""
-    }
+    },
+    "featured": "false"
   },
   {
     "id": "12",
@@ -166,7 +176,8 @@
         "github": "",
         "live": "projects/section/index.html",
         "live2": ""
-    }
+    },
+    "featured": "false"
   },
   {
     "id": "13",
@@ -180,7 +191,8 @@
         "github": "https://github.com/vprotsan/pncbank",
         "live": "projects/pnc/index.html",
         "live2": "projects/pnc/index2.html"
-    }
+    },
+    "featured": "false"
   },
   {
     "id": "14",
@@ -194,7 +206,8 @@
         "github": "",
         "live": "projects/merch/index.html",
         "live2": "projects/merch/index2.html"
-    }
+    },
+    "featured": "false"
   },
   {
     "id": "16",
@@ -208,7 +221,8 @@
         "github": "",
         "live": "projects/giftcard/index.html",
         "live2": ""
-    }
+    },
+    "featured": "false"
   },
   {
     "id": "17",
@@ -222,7 +236,8 @@
         "github": "",
         "live": "projects/davematthews/index.html",
         "live2": ""
-    }
+    },
+    "featured": "false"
   },
   {
     "id": "18",
@@ -236,7 +251,8 @@
         "github": "",
         "live": "projects/compass/index.html",
         "live2": ""
-    }
+    },
+    "featured": "false"
   },
   {
     "id": "19",
@@ -250,7 +266,8 @@
         "github": "",
         "live": "projects/merch/index.html",
         "live2": "projects/merch/index2.html"
-    }
+    },
+    "featured": "false"
   },
   {
     "id": "20",
@@ -264,7 +281,8 @@
         "github": "",
         "live": "projects/amex/index.html",
         "live2": ""
-    }
+    },
+    "featured": "true"
   },
   {
     "id": "21",
@@ -278,7 +296,8 @@
         "github": "",
         "live": "",
         "live2": ""
-    }
+    },
+    "featured": "false"
   },
   {
     "id": "22",
@@ -292,7 +311,8 @@
         "github": "",
         "live": "https://www.prestigeluxuryrentals.com/",
         "live2": ""
-    }
+    },
+    "featured": "false"
   },
   {
     "id": "23",
@@ -306,7 +326,8 @@
         "github": "",
         "live": "fullimages/insurance-for-farmers-main.jpg",
         "live2": ""
-    }
+    },
+    "featured": "false"
   },
   {
     "id": "24",
@@ -320,7 +341,8 @@
         "github": "",
         "live": "fullimages/viadialog-applike.jpg",
         "live2": ""
-    }
+    },
+    "featured": "false"
   },
   {
     "id": "25",
@@ -334,7 +356,8 @@
         "github": "",
         "live": "fullimages/micereviews-inside-page.jpg",
         "live2": ""
-    }
+    },
+    "featured": "false"
   },
   {
     "id": "26",
@@ -348,7 +371,8 @@
         "github": "",
         "live": "",
         "live2": ""
-    }
+    },
+    "featured": "false"
   },
   {
     "id": "27",
@@ -362,7 +386,8 @@
         "github": "",
         "live": "fullimages/triphop-mainpage.jpg",
         "live2": ""
-    }
+    },
+    "featured": "false"
   },
   {
     "id": "28",
@@ -376,6 +401,7 @@
         "github": "",
         "live": "https://getrad.co/",
         "live2": ""
-    }
+    },
+    "featured": "true"
   }
 ]

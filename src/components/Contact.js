@@ -8,7 +8,7 @@ const Contact = () => (
           <meta charSet="utf-8" />
           <title>Valeriya Protsan - Contact me</title>
           <link rel="canonical" href="http://vprotsan.com/contact" />
-          <meta name="description" content="Valeriya Prostan, contact me" />
+          <meta name="description" content="Valeriya Hasty contact me" />
       </Helmet>
       <div className="inner-wrapper">
         <h1>Heey!  Look me up on LinkedIn or github!</h1>

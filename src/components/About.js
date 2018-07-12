@@ -7,9 +7,9 @@ const About = () => (
   <section className="resume-section p-3 p-lg-5 d-flex d-column col-md-offset-6" id="about">
       <Helmet>
           <meta charSet="utf-8" />
-          <title>Valeriya Protsan</title>
+          <title>Valeriya Hasty</title>
           <link rel="canonical" href="http://vprotsan.com/about" />
-          <meta name="description" content="Valeriya Prostan, front-end web developer" />
+          <meta name="description" content="Valeriya Hasty, full-stack web developer" />
       </Helmet>
       <div className="inner-wrapper">
         <div className="my-auto">

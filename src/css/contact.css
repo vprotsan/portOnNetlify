@@ -10,12 +10,13 @@
     font-family: si;
     src: url(../icons/socicon.svg) format(svg); } }
 
-#contact h1 {
-  font-size: 3rem;
-  text-align: center; }
-
-#contact .panda {
-  text-align: center; }
+#contact {
+  padding: 0; }
+  #contact h1 {
+    font-size: 3rem;
+    text-align: center; }
+  #contact .panda {
+    text-align: center; }
 
 .soc {
   overflow: hidden;
