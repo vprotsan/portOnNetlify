@@ -37,6 +37,7 @@ render(){
               <Route exact path="/portfolio" render={() => <Portfolio />}/>
               <Route exact path="/about" render={() => <About />}/>
               <Route exact path="/contact" render={() => <Contact />}/>
+              <Route exact path="/login" render={() => <Login />}/>
               <Route component={ NotFound }/>
             </Switch>
           </div>
