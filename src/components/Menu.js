@@ -22,10 +22,10 @@ const Menu = () => {
             <li eventKey={2}>
               <Link to="/portfolio">portfolio</Link>
             </li>
-            <li eventKey={1} >
+            <li eventKey={3} >
                 <Link to="/about">about</Link>
             </li>
-            <li eventKey={2}>
+            <li eventKey={4}>
                 <Link to="/contact">contact</Link>
             </li>
           </Nav>
